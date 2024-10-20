@@ -1,0 +1,14 @@
+---
+- &flux
+  name: "flux.1-schnell-fp8"
+  license: apache-2
+  description: |
+     Quant of FLUX.1 [schnell]
+  url: "github:bunder2015/localai-gallery/flux.yaml@master"
+  overrides:
+    parameters:
+      model: Kijai/flux-fp8
+  files:
+    - filename: flux1-schnell-fp8-e4m3fn.safetensors
+      uri: huggingface://Kijai/flux-fp8/flux1-schnell-fp8-e4m3fn.safetensors
+      sha256: bbdfba27fed8ff3be237523fb37b83821a6c4bbaa1db43ef9288767d0e4042fb
